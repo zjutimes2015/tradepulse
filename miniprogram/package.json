@@ -1,0 +1,62 @@
+{
+  "name": "tradepulse-miniprogram",
+  "version": "0.1.0",
+  "private": true,
+  "description": "贸脉 TradePulse 微信小程序 — 外贸客户开发管理工具（审批台）",
+  "templateInfo": {
+    "name": "default",
+    "typescript": true,
+    "css": "less",
+    "framework": "react"
+  },
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "build:h5": "taro build --type h5",
+    "dev:h5": "npm run build:h5 -- --watch"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.24.0",
+    "@tarojs/components": "^4.0.0",
+    "@tarojs/helper": "^4.0.0",
+    "@tarojs/plugin-framework-react": "^4.0.0",
+    "@tarojs/plugin-platform-weapp": "^4.0.0",
+    "@tarojs/react": "^4.0.0",
+    "@tarojs/runtime": "^4.0.0",
+    "@tarojs/shared": "^4.0.0",
+    "@tarojs/taro": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-react": "^8.0.1",
+    "@tarojs/cli": "^4.0.0",
+    "@tarojs/webpack5-runner": "^4.0.0",
+    "@types/react": "^18.2.0",
+    "@types/webpack-env": "^1.13.6",
+    "babel-preset-taro": "^4.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-taro": "^4.0.0",
+    "postcss": "^8.4.0",
+    "stylelint": "^15.0.0",
+    "typescript": "^5.2.2",
+    "webpack": "5.89.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "@swc/core",
+      "@tarojs/binding",
+      "@tarojs/cli",
+      "core-js",
+      "core-js-pure",
+      "esbuild"
+    ]
+  }
+}

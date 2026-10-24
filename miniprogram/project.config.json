@@ -1,0 +1,16 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "tradepulse-miniprogram",
+  "description": "贸脉 TradePulse 微信小程序",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false,
+    "minifyWXML": true
+  },
+  "compileType": "miniprogram"
+}

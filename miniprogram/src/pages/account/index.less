@@ -1,0 +1,114 @@
+.account {
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+
+.loading {
+  padding: 200px 0;
+  text-align: center;
+  color: #9ca3af;
+}
+
+.status-row {
+  display: flex;
+  align-items: center;
+}
+
+.status-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.status-dot[data-status='connected'] {
+  background: #22c55e;
+}
+
+.status-dot[data-status='connecting'] {
+  background: #e6a23c;
+}
+
+.status-dot[data-status='suspended'] {
+  background: #ef4444;
+}
+
+.status-dot[data-status='none'] {
+  background: #9ca3af;
+}
+
+.status-text {
+  font-size: 32px;
+  font-weight: 600;
+  color: #1f2329;
+}
+
+.email {
+  display: block;
+  margin-top: 12px;
+  font-size: 26px;
+  color: #6b7280;
+}
+
+.section-title {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1f2329;
+  margin-bottom: 20px;
+}
+
+.quota-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quota-label {
+  width: 110px;
+  font-size: 26px;
+  color: #4b5563;
+}
+
+.quota-track {
+  flex: 1;
+  height: 20px;
+  background: #f0f2f5;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 16px;
+}
+
+.quota-bar {
+  height: 100%;
+  background: #1f6feb;
+  border-radius: 10px;
+}
+
+.quota-num {
+  width: 130px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1f2329;
+  text-align: right;
+}
+
+.warmup-tip {
+  display: block;
+  margin-top: 8px;
+  font-size: 24px;
+  color: #e6a23c;
+}
+
+.guide-text {
+  display: block;
+  font-size: 26px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.bind-btn {
+  margin-top: 24px;
+  height: 80px;
+  line-height: 80px;
+}

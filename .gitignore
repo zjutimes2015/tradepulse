@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# builds
+.next/
+out/
+dist/
+build/
+
+# env files (CRITICAL: GitHub secret scanning — never commit secrets)
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+pnpm-debug.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# taro miniprogram
+miniprogram/dist/
+
+# 模板残留（误带入，不属于本项目）
+mksaas-app-main/
+bookbunny-saas/
+.source/
+*.zip
+*.zip.*
+check-db.js

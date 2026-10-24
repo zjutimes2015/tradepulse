@@ -1,0 +1,102 @@
+.stats {
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.range-bar {
+  display: flex;
+  background: #ffffff;
+  padding: 16px 24px;
+}
+
+.range-item {
+  padding: 12px 32px;
+  font-size: 28px;
+  color: #6b7280;
+  border-radius: 32px;
+  margin-right: 16px;
+}
+
+.range-item.active {
+  background: #1f6feb;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.funnel {
+  padding: 32px 24px;
+}
+
+.funnel-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.funnel-label {
+  width: 120px;
+  font-size: 26px;
+  color: #4b5563;
+}
+
+.funnel-track {
+  flex: 1;
+  height: 36px;
+  background: #f0f2f5;
+  border-radius: 18px;
+  overflow: hidden;
+  margin: 0 16px;
+}
+
+.funnel-bar {
+  height: 100%;
+  border-radius: 18px;
+  transition: width 0.3s;
+}
+
+.funnel-value {
+  width: 60px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #1f2329;
+  text-align: right;
+}
+
+.funnel-pct {
+  width: 80px;
+  font-size: 24px;
+  color: #9ca3af;
+  text-align: right;
+}
+
+.tip {
+  display: flex;
+  flex-direction: column;
+}
+
+.tip-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.tip-line {
+  font-size: 26px;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 160px 60px;
+  color: #9ca3af;
+  font-size: 28px;
+}
+
+.empty-sub {
+  margin-top: 16px;
+  font-size: 24px;
+  text-align: center;
+}
